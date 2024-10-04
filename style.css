@@ -1,0 +1,87 @@
+
+  body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+  }
+  h1,h2,h3,h5{
+	text-align: center;
+  }
+  .container{
+	margin-top: 30px;
+  }
+
+  img{
+	max-width: 100%;
+	height: auto;
+  }
+  p{
+	text-align: justify;
+	margin: 10px 0;
+  }
+  button{
+	margin: 10px 0;
+  }
+  .hero-text {
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+.hero-text h1 {
+    margin: 1rem 0; /* Jarak antara elemen h1 dan teks lainnya */
+}
+
+.hero-text p {
+    margin: 1rem 0; /* Jarak antara elemen p */
+}
+
+.text-center.mt-5 {
+    margin-top: 60px; /* Atur jarak sesuai kebutuhan */
+}
+
+
+  .logo-image {
+    max-height: 100px; /* Ensure the logo fits within the navbar */
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    padding: 0.5rem 1rem; /* Adjust navbar padding */
+  }
+
+  .dropdown-menu {
+    z-index: 1000; /* Ensure dropdown is above other elements */
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .d-md-flex {
+      flex-direction: column; /* Stack items on small screens */
+      align-items: center; /* Center align items */
+    }
+
+    .text-danger {
+      text-align: center;
+	  margin: 20px; /* Center text on smaller screens */
+    }
+
+    .my-3.h2 {
+      font-size: 1.5rem; /* Adjust font size for headings */
+    }
+
+    .text-center {
+      margin-bottom: 1rem; /* Space out elements vertically */
+    }
+  }
+
+  /* Card Styles */
+  .border {
+    margin-bottom: 1rem; /* Space out cards */
+	margin: 10px;
+  }
+
+  /* Footer Styles */
+  footer {
+    padding: 1rem 0; /* Padding for the footer */
+  }
+
+  .text-content {
+    padding: 1rem; /* Add padding for the text content */
+  }
